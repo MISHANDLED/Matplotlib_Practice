@@ -11,7 +11,7 @@ import pandas as pd
 # plt.show()
 
 # Data Reading
-data = pd.read_csv("datafile4.csv")
+data = pd.read_csv("DataFiles/datafile4.csv")
 
 # Variables
 view_count = data['view_count']

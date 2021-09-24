@@ -6,7 +6,7 @@ languages = []
 counter = []
 
 
-with open('datafile1.csv') as csv_file:
+with open('DataFiles/datafile1.csv') as csv_file:
     reader = csv.DictReader(csv_file, delimiter=',')
     C = Counter()
     for row in reader:

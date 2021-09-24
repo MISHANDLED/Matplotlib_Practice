@@ -2,7 +2,7 @@ import pandas as pd
 from collections import Counter
 from matplotlib import pyplot as plt
 
-data = pd.read_csv("datafile1.csv")
+data = pd.read_csv("DataFiles/datafile1.csv")
 ids = data['Responder_id']
 lang = data['LanguagesWorkedWith']
 

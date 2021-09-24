@@ -7,7 +7,7 @@ import pandas as pd
 # plt.show()
 
 # Data Reading
-data = pd.read_csv('datafile3.csv')
+data = pd.read_csv('DataFiles/datafile3.csv')
 id = data['Responder_id']
 age = data['Age']
 bins = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]

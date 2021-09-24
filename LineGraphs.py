@@ -2,7 +2,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 # Data Reading
-data = pd.read_csv("datafile2.csv")
+data = pd.read_csv("DataFiles/datafile2.csv")
 
 # Variables
 AGES_X = data['Age']
